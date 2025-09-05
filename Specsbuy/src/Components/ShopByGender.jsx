@@ -3,7 +3,7 @@ import React from 'react';
 const ShopByGender = () => {
   return (
     <div className="my-10">
-      <h2 className="text-4xl font-bold ml-10 mb-8">Shop By Gender</h2>
+      <h2 className="text-4xl font-bold ml-10 mb-8">SHOP BY GENDER</h2>
       <div className="flex justify-center gap-20 items-center">
         {/* Men's Card */}
         <div className="relative">

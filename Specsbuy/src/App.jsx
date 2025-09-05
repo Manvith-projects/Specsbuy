@@ -9,6 +9,9 @@ import FrameShape from "./Components/FrameShape";
 import SmallBanners from "./Components/SmallBanners";
 import BestSellers from "./Components/BestSellers";
 import ShopByFace from "./Components/ShopByFace";
+import FramesForLife from "./Components/FramesForLife";
+import Footer from "./Components/Footer";
+import FootBanner from "./Components/FootBanner";
 function App() {
   return (
     <div>
@@ -21,6 +24,9 @@ function App() {
           <SmallBanners />
           <BestSellers />
           <ShopByFace />
+          <FramesForLife />
+          <FootBanner />
+          <Footer />
     </div>
   );
 }

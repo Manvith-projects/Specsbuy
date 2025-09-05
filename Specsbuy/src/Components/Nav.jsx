@@ -22,7 +22,7 @@ import { Input, Button } from "@mui/material";
 
           {/* Search Bar */}
           <div className="flex-1 max-w-1/2 mx-8">
-            <div className="flex items-center bg-[#c1dcdc] rounded-[8px_8px_8px_8px] px-4 py-2 gap-4">
+            <div className="flex items-center bg-red-100 rounded-[8px_8px_8px_8px] px-4 py-2 gap-4">
               <img className="flex-shrink-0" alt="Search" src="/search.svg" />
               <Input
                 disableUnderline

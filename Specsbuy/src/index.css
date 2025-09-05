@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	
+	box-sizing: border-box;
+	font-family: 'Work Sans', 'Poppins';
+}
 
 /* Underline on hover for MegaMenu */
 .underline-hover {
@@ -23,4 +30,9 @@
 .underline-hover:hover::after,
 .underline-hover:focus::after {
 	transform: scaleX(1);
+}
+
+
+footer{
+	color: #FF0000;
 }

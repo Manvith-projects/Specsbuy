@@ -2,7 +2,7 @@ const BestSellers = () => {
     return (
         <div className="my-5">
             <div className="h-16 flex justify-between items-center">
-                <h2 className="text-4xl ml-10 font-bold">Best Sellers</h2>
+                <h2 className="text-4xl ml-10 font-bold">BEST SELLERS</h2>
                 <button className="bg-[#000] text-white px-4 py-2 rounded-md mr-10">View All</button>
             </div>
 
@@ -10,7 +10,7 @@ const BestSellers = () => {
                 {/* Product Cards */}
 
                 {[1, 2, 3, 4, 5].map((item) => (
-                    <div key={item} className="border p-4 rounded-lg">
+                    <div key={item} className=" p-4 rounded-lg">
                         <a href="#">
                             <img src={`https://dummyimage.com/250x250?text=Product+${item}`} alt={`Product ${item}`} className="w-full h-3/4 object-cover mb-2 rounded-md" />
                             <h3 className="text-lg font-semibold">Product {item}</h3>
